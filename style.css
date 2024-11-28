@@ -1,0 +1,548 @@
+
+body{
+    background: linear-gradient(to right,#05496b,#2dadb1,#0a3272);
+
+}
+
+.line{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.liner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 1.6rem;
+
+}
+
+.line ::before, .line ::after{
+    content: "";
+    height: 2px;
+
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+
+
+
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+  justify-content: space-around;
+   
+  background: linear-gradient(to right,#05496b,#2dadb1,#0a3272);
+    
+}
+
+.search {
+    justify-content: center;
+    border: none;
+    border-style: none;
+    width: 500px;
+    position: relative;
+    left: 80px;
+    
+}
+
+
+
+.card-title {
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+
+.pirveli  {
+    background-color: rgb(110, 132, 130);
+    border-radius: 2px;
+    width:200px;
+    height: 50px;
+    font-size: 15px;
+    border:rgb(2, 1, 12);
+    border-style: groove;
+    position: relative;
+    left: 27px;
+    
+    
+    
+    
+}
+
+
+
+
+.campus {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top:50px ;
+   
+    
+}
+.campus-col {
+   display: flex;
+   justify-content: space-between;
+    margin-bottom: 30px;
+    position: relative;
+    width: 353px;
+    height: 240px;
+    border: 10px;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 30px 0 rgb(40, 73, 79);
+    border-style: groove;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+ 
+    border-radius: 10px;
+    
+  
+}
+.campus-col img {
+    display: flex;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+
+  
+}
+.course-col :hover{
+    box-shadow: 10 10 30px 0px rgba(35, 204, 9, 0.7);
+}
+ .didi {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+ }
+
+
+ 
+
+
+
+.layer {
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    
+}
+.layer:hover{
+    background:  rgba(5, 45, 41, 0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 25px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.8s;
+
+}
+.layer:hover h3{
+    bottom: 45%;
+    opacity: 0.8;
+}
+
+.layer p{
+    color: rgb(5, 27, 6);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+  top: 200px;
+left: 5px;
+}
+
+.batumi{
+    
+    object-fit: cover;
+}
+
+
+.nav-link{
+    
+position: relative;
+ 
+    
+
+    
+}
+
+.nav-link::after{
+    content: '';
+    opacity: 0;
+    transition: all 0.9;
+    height: 4px;
+    width: 100%;
+    background-color: rgb(60, 183, 194);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+.c-item{
+    height: 580px;
+}
+.c-img{
+    height: 100%;
+    
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+}
+
+.contactus{
+    background-color: rgb(125, 115, 101);
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    position: relative;
+    right: 40px;
+    border-style: none;
+    border-radius: 5px;
+   font-family: monospace;
+   color: rgb(28, 27, 25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3{
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+
+}
+.card{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 12px;
+    box-shadow: 0px 14px 30px;
+    transition: 1s;
+    background: rgb(255, 255, 255)
+
+}
+
+.card:hover{
+    box-shadow: 0 5px 8px rgba(0,0,0,0.20),0 4px 8px rgba(0,0,0,0.15);
+    transform: translate(0px, 10px);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+h6 {
+    font-size:25px ;
+    margin: 0;
+    text-align: center;
+    color: rgb(30, 23, 23);
+}
+
+p{
+    text-align: center;
+    padding-top: 0px 5px;
+    color: rgb(255, 254, 252);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    padding-top: 5px;
+}
+
+.fa-solid{
+    font-size: 27px;
+    transition: 2s;
+    margin: 4px;
+    color: orange;
+}
+
+.black{
+    color: rgb(238, 226, 226);
+}
+
+button {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    color: #fff;
+    border: 0;
+    padding: 15px;
+    margin-top: 6px;
+    cursor: pointer;
+    outline: none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.button1{
+    background: linear-gradient(to right,#05496b,#2dadb1,#0a3272);
+    cursor: pointer;
+}
+
+.button2 {
+    background: linear-gradient(to right,#05496b,#2dadb1,#0a3272);
+    cursor: pointer;
+
+}
+
+.button3 {
+    background: linear-gradient(to right,#05496b,#2dadb1,#0a3272);
+    cursor: pointer;
+
+}
+
+.button4 {
+    background: linear-gradient(to right,#05496b,#2dadb1,#0a3272);
+    cursor: pointer;
+
+
+}
+@media (max-width:1000px){
+    .card{
+        width: 45%;
+    }
+   
+   
+}  
+  @media (max-width:750px){
+    .card {
+        width: 100%;
+    }
+  }
+
+
+
+
+.booknow{
+    position: relative;
+    top: 190px;
+    width: 150px;
+    background-color: rgb(17, 109, 123);
+    border-radius: 10px;
+}
+
+.booknow:hover{
+
+    box-shadow: 0 5px 8px rgba(196, 169, 169, 0.2),0 4px 8px rgba(193, 152, 152, 0.15);
+    transform: translate(10px, 100px ) 
+    translate(1s)
+
+}
+
+
+
+
+
+.img1{
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: 12px;
+}
+
+
+.card{
+    width: 300px;
+    height: 400px;
+    
+    border-bottom-right-radius: 25%px;
+}
+
+.lorem{
+    color: black;
+}
+
+
+.contact{
+    max-height: 100vh;
+    background-color: #1f7434;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  url(pexels-luciann-photography-3580532.jpg) no-repeat center center/cover;
+ }
+
+ .contact form {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 18px 18px 48px  rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(225, 255, 255, 0.7);
+    backdrop-filter: blur(3px);
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ .contact form h1{
+    color: #000000;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+ }
+ 
+ .contact form input{
+    width: 280px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #000000;
+ }
+
+ .contact form input::placeholder{
+    color: #000000;
+ }
+
+ .contact form #lastname,
+ .contact form #mobile {
+    margin-left: 20px;
+ }
+ 
+
+ .contact form textarea{
+    background: none;
+    border: none;
+    border-bottom:2px solid rgb(2, 1, 1) ;
+    color: #0a0a0a;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+ }
+
+ textarea::-webkit-scrollbar{
+    width: 1em;
+ }
+ .contact form #button{
+    border: none;
+    background: #000000;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #f9faff;
+    width: 50%;
+    padding: 0;
+    transition: 1s;
+    cursor: pointer;
+ }
+
+ .contact form #button:hover{
+    opacity: 0.2;
+ }
+ @media(max-width: 700px){
+    .contact form{
+      width: 300px;
+      align-items: center
+      
+  }
+  }
+
+
+
+.meme{
+    font-size: 20px;
+}
+
+
+.temuka1{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.temuka2{
+    font-size: 25px;
+    background: linear-gradient(to right,#05496b,#2dadb1,#0a3272);
+    color: #fff;
+   
+}
+
+.temuka3{
+    background: linear-gradient(to right,#7a0909,#9e0505,#b30909);
+   font-size: 15px;
+}
